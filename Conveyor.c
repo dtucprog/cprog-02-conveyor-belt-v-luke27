@@ -2,12 +2,12 @@
 
 int main() { 
     int motor_capacity = 12; 
-    printf("Enter the number of motors:\n");
+    printf("How many motors are carrying the packages?:\n");
     int motor_count, package_weight;
     scanf("%d", &motor_count);
 
 
-    printf("how many Kg of packages do we expect:\n");
+    printf("How many kg of packages do we expect?\n");
     scanf("%d", &package_weight);
 
 
