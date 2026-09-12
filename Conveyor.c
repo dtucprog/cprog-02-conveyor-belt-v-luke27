@@ -12,13 +12,9 @@ int main() {
 
 
     if (package_weight > motor_count * motor_capacity) {
-        printf("NO the conveyor can't handle it\nBecause:\n");
-        printf("The weight is %d Kg\n", package_weight);
-        printf("The Motor Capacity total is %d Kg\n", motor_capacity * motor_count);
+        printf("No. The conveyor belt cannot carry the packages.\n");
     } else {
-        printf("Yes the conveyor can handle it\nBecause:\n");
-        printf("The weight is %d Kg\n", package_weight);
-        printf("The Motor Capacity total is %d Kg\n", motor_capacity * motor_count);
+        printf("Yes! The conveyor belt can carry the packages.\n");
     }
     return 0;
 
